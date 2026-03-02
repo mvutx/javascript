@@ -39,3 +39,9 @@ for (let i = 1; i <= 19; i += 2) {
 for (let i = 10; i >= 1; i--) {
     console.log(i);
 }
+
+for(let year = 2000; year <= 2026; year++){
+    if ((year % 4 === 0 && year % 100 !== 0)|| year % 400 === 0){
+        console.log(year);
+    }
+}

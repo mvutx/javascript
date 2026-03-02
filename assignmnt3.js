@@ -27,3 +27,10 @@ for (let i = 10; i => 1; i --){
     console.log(i);
 }
 print("====================")
+
+// loop to enable printing of leap years from 200 - 2026
+for (let year = 2000; year <= 2026; year++) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        console.log(year);
+    }
+}
